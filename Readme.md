@@ -105,6 +105,8 @@ CUDA驱动版本不符合运行要求（推荐重新安装版本为10.0.130的�
 
 The CUDA driver version does not meet the operating requirements (it is recommended to reinstall the driver with version 10.0.130).
 
+
+
 ```
 Traceback (most recent call last):
   File "main.py", line 43, in <module>
@@ -129,5 +131,7 @@ RuntimeError: Could not find MSVC/GCC/CLANG installation on this computer. Check
 [1496] Failed to execute script main
 ```
 
-C++编译器版本找不到，查看电脑中有没有`C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64`或`C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64`文件夹，如果没有，需要下载上述两个中的任一个`Microsoft Visual Studio`版本。
+C++编译器版本找不到，查看电脑中有没有`C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64`或`C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64`文件夹，如果没有，需要下载上述两个中的任一个`Microsoft Visual Studio`版本。或者也可以提供您的编译器路径，将会在后续版本中更新。
+
+The C++ compiler version cannot be found, check if there is `C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64` or `C:/Program in the computer Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64` folder, if not, you need to download either of the above two Microsoft Visual Studio versions. Or you can provide your compiler path, which will be updated in subsequent versions.
 
