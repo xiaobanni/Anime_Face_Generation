@@ -18,29 +18,29 @@
 
 下载软件压缩包并解压到任意文件夹
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" alt="img" style="zoom: 80%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401200955.jpg" alt="img" style="zoom: 80%;" />
 
 2.打开文件夹并找到MakeAnimeFace.exe文件，双击打开
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg" alt="img" style="zoom:80%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401200959.jpg" alt="img" style="zoom:80%;" />
 
 3.生成初始页面
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg" alt="img" style="zoom:50%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201001.jpg" alt="img" style="zoom:50%;" />
 
 4.点击Generate按钮生成动漫头像图片
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" alt="img" style="zoom:50%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201004.jpg" alt="img" style="zoom:50%;" />
 
 5.获得喜欢的动漫头像后，点击Save按钮保存文件。
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg" alt="img" style="zoom:50%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201006.jpg" alt="img" style="zoom:50%;" />
 
 下方会图像保存的路径位置。
 
 6.打开当前目录下的result文件夹，可以查看到保存的所有图片。
 
-<img src="C:/Users/Y/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg" alt="img" style="zoom: 80%;" />
+<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201008.jpg" alt="img" style="zoom: 80%;" />
 
  
 
