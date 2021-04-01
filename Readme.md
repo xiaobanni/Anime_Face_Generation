@@ -104,3 +104,30 @@ tensorflow.python.framework.errors_impl.InternalError: cudaGetDevice() failed. S
 CUDA驱动版本不符合运行要求（推荐重新安装版本为10.0.130的驱动）。
 
 The CUDA driver version does not meet the operating requirements (it is recommended to reinstall the driver with version 10.0.130).
+
+```
+Traceback (most recent call last):
+  File "main.py", line 43, in <module>
+  File "run_generator.py", line 105, in generate_anime_face
+  File "dnnlib\submission\submit.py", line 218, in submit_run
+  File "dnnlib\submission\submit.py", line 186, in submit
+  File "dnnlib\submission\submit.py", line 148, in run_wrapper
+  File "run_generator.py", line 54, in generate_images_prepare
+  File "load_networkds.py", line 12, in load_networks
+  File "dnnlib\tflib\network.py", line 253, in __setstate__
+  File "dnnlib\tflib\network.py", line 110, in _init_graph
+  File "<string>", line 491, in G_synthesis_stylegan2
+  File "<string>", line 455, in layer
+  File "<string>", line 99, in modulated_conv2d_layer
+  File "<string>", line 68, in apply_bias_act
+  File "dnnlib\tflib\ops\fused_bias_act.py", line 68, in fused_bias_act
+  File "dnnlib\tflib\ops\fused_bias_act.py", line 122, in _fused_bias_act_cuda
+  File "dnnlib\tflib\ops\fused_bias_act.py", line 16, in _get_plugin
+  File "dnnlib\tflib\cudautil.py", line 103, in get_plugin
+  File "dnnlib\tflib\cudautil.py", line 68, in _prepare_nvcc_cli
+RuntimeError: Could not find MSVC/GCC/CLANG installation on this computer. Check compiler_bindir_search_path list in "D:\GAN\main\dnnlib\tflib\cudautil.pyc".
+[1496] Failed to execute script main
+```
+
+C++编译器版本找不到，查看电脑中有没有`C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64`或`C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64`文件夹，如果没有，需要下载上述两个中的任一个`Microsoft Visual Studio`版本。
+
