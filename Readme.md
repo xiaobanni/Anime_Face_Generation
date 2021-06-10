@@ -26,21 +26,21 @@
 
 3.生成初始页面
 
-<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201001.jpg" alt="img" style="zoom:50%;" />
+![image-20210610221608966](https://banni.oss-cn-beijing.aliyuncs.com/img/20210610221609.png)
 
 4.点击Generate按钮生成动漫头像图片
 
-<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201004.jpg" alt="img" style="zoom:50%;" />
+![image-20210610221308633](https://banni.oss-cn-beijing.aliyuncs.com/img/20210610221308.png)
 
 5.获得喜欢的动漫头像后，点击Save按钮保存文件。
 
-<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201006.jpg" alt="img" style="zoom:50%;" />
+![image-20210610221352374](https://banni.oss-cn-beijing.aliyuncs.com/img/20210610221352.png)
 
 下方会图像保存的路径位置。
 
 6.打开当前目录下的result文件夹，可以查看到保存的所有图片。
 
-<img src="https://banni.oss-cn-beijing.aliyuncs.com/img/20210401201008.jpg" alt="img" style="zoom: 80%;" />
+![image-20210610221209867](https://banni.oss-cn-beijing.aliyuncs.com/img/20210610221217.png)
 
  
 
