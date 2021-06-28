@@ -10,7 +10,7 @@
 
 
 
-因压缩包有1.1G，若下载较慢可以使用百度云：
+因压缩包有1.1G，若下载较慢可以使用百度云[为V1.0版本]：
 
 链接：https://pan.baidu.com/s/1TSM1c1nasW6aKZj-rqWFVA  提取码：oyij 
 
